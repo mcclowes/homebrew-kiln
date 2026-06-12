@@ -11,4 +11,10 @@ cask "kiln" do
   depends_on arch: :arm64
 
   app "Kiln.app"
+
+  zap trash: [
+    "~/Library/Application Support/destill",
+    "~/Library/Preferences/com.mcclowes.kiln.plist",
+    "~/Library/Saved Application State/com.mcclowes.kiln.savedState",
+  ]
 end
