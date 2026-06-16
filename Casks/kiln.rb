@@ -1,6 +1,6 @@
 cask "kiln" do
-  version "0.8.1"
-  sha256 "81b8eb6e4da924d356438fdc09ad641f4c91768bb298336847f83d26333bd091"
+  version "0.9.0"
+  sha256 "d06c29d8528ef93a15c60d246a1e43db5a3d5310433085c749bb6897ea35f70c"
 
   url "https://github.com/mcclowes/homebrew-kiln/releases/download/v#{version}/Kiln-#{version}.zip"
   name "Kiln"
