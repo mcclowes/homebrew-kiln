@@ -31,3 +31,10 @@ macOS 26 (Tahoe) or later.
 Download `Kiln-<version>.zip` from the
 [latest release](https://github.com/mcclowes/homebrew-kiln/releases/latest),
 extract it, and move `Kiln.app` to Applications.
+
+## Checks
+
+GitHub Actions checks every push and pull request with stable Homebrew on macOS
+26. It checks cask style, runs the strict cask audit, and fetches the release
+archive to verify its checksum. The job checks the current tap checkout and
+doesn't install or launch Kiln.

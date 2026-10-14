@@ -4,11 +4,11 @@ cask "kiln" do
 
   url "https://github.com/mcclowes/homebrew-kiln/releases/download/v#{version}/Kiln-#{version}.zip"
   name "Kiln"
-  desc "Native macOS IDE and LLM harness"
+  desc "Native IDE and LLM harness"
   homepage "https://github.com/mcclowes/homebrew-kiln"
 
-  depends_on macos: :tahoe
   depends_on arch: :arm64
+  depends_on macos: :tahoe
 
   app "Kiln.app"
 
